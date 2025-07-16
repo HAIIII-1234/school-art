@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+#gallery h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#gallery h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#gallery p {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.artworks {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.artwork {
+  width: 300px;
+  text-align: center;
+}
+
+.artwork h4 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.artwork img {
+  width: 300px;
+  height: 400px;
+  display: block;
+  margin: 0 auto;
+}
+header {
+  background: #222;
+  color: #fff;
+  padding: 50px 0 0 0; /* Top padding only for title */
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  background: #444;
+  padding: 15px;
+  margin-top: 16px; /* Optional: space between title and nav */
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffd700;
+}
+#event-gallery {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.event-photos {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.event-block img {
+  width: 400px;
+  height: 400px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
+
+.student-art-description {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 16px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+footer {
+  background-color: #222;
+  color: #f1f1f1;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 0.95rem;
+  margin-top: 40px;
+}
+footer a {
+  color: #ff91a4; /* light artistic pink tone */
+  text-decoration: none;
+  font-weight: bold;
+}

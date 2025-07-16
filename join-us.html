@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arts Club | Join Us</title>
+    <link rel="stylesheet" href="CSS/join-us-style.css" />
+    <link rel="stylesheet" href="CSS/style-index.css" />
+  </head>
+  <body>
+    <header><h1>Contact Us 📞</h1></header>
+    <h2 id="Contact">Join Us</h2>
+    <p>
+      Interested in joining the Arts Club? We welcome all students who are
+      passionate about art and creativity. Please fill out this form:
+    </p>
+    <form action="submit.html">
+      <label for="Fname">Full Name:</label>
+      <input
+        type="text"
+        id="Fname"
+        placeholder="Full Name"
+        required
+        minlength="3"
+        maxlength="25"
+      />
+
+      <label for="grade">Grade:</label>
+      <input
+        type="text"
+        id="grade"
+        placeholder="Grade"
+        required
+        pattern="(?:7|8|9|10|11|12)[A-z]"
+      />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Email" required />
+
+      <label for="message">Why do you want to join:</label>
+      <textarea
+        name="message"
+        id="message"
+        rows="4"
+        placeholder="Tell us why you want to join the Arts Club"
+      ></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
